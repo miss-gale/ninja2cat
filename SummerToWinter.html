@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja To Cat</title>
+    <link rel="stylesheet" type="text/css" href="SummerToWinter.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+         $('img').click(function(){
+              $(this).attr('temp', $(this).attr('src'));
+              $(this).attr('src', $(this).attr('alt-src'));
+              $(this).attr('alt-src', $(this).attr('temp'));
+         });
+    });
+    </script>
+</head>
+<body>
+       <h1>jQuery Assignment: Summer to Winter</h1>
+       <p>Note: This assignment is called <a href="http://learn.codingdojo.com/m/12/3977/28039">"Ninja to Cat"</a> in the Dojo platform.</p>
+       <div class="mainBody">
+            <img id="image01" src="STW-images/summer01.jpg" alt-src="STW-images/winter01.jpg" alt="the first image" temp=""><br>
+            <img id="image02" src="STW-images/summer02.jpg" alt-src="STW-images/winter02.jpg" alt="the second image" temp=""><br>
+            <img id="image03" src="STW-images/summer03.jpg" alt-src="STW-images/winter03.jpg" alt="the third image" temp=""><br>
+            <img id="image04" src="STW-images/summer04.jpg" alt-src="STW-images/winter04.jpg" alt="the fourth image" temp=""><br>
+       </div>
+ </body>
+ </html>

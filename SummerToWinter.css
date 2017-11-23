@@ -1,0 +1,25 @@
+*{
+     padding: 0px;
+     font-family: "Calibri", sans-serif;
+     background-color: #c8dadd;
+     color: #3a484a;
+}
+
+h1{
+     margin: 10px 5px;
+}
+
+p{
+     margin: 10px 5px;
+}
+
+.mainBody{
+     width: 620px;
+     height: auto;
+}
+
+img{
+     width: 300px;
+     margin-left: 20px;
+     display: block;
+}
